@@ -17,11 +17,11 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = 0
-    API_HASH = ""
-    BOT_TOKEN = ""
-    DATABASE_URL = ""
+    API_ID = 22894281
+    API_HASH = "b59176de6ec96903b816d72c2ad4fff8"
+    BOT_TOKEN = "6317945060:AAEh-QjW4E4IKs6Wox90P92I26OEScJRY9Y"
+    DATABASE_URL = "postgresql://devi218:apple@9450@localhost:5432/devi218"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = ""
+    MUST_JOIN = "https://t.me/adult_updates"
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
